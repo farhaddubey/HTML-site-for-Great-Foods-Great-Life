@@ -1,0 +1,232 @@
+/* Add a black background color to the top navigation */
+body{
+  /* background-color: rgba(0, 0, 0, 0); */
+    /* background-image: url('navbar.jpg'); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.topnav {
+    background-color: rgba(51, 51, 51, 0.322);
+    overflow: hidden;
+    background-image: url('navbar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80px;
+  }
+  .img-gfgl-logo-1{
+    position: relative;
+    top: -5px;
+    left: 0px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .img-gfgl-logo-side-text{
+    display: float;
+    align-items: flex-start;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(0, 0, 0, 0.315);
+    text-decoration: underline rgb(72, 0, 255);
+    color: rgb(0, 255, 98);
+    border-radius: 5px;
+  }
+  
+  /* Add an active class to highlight the current page */
+  /* .topnav a.active {
+    background-color: #04aa6d37;
+    color: white;
+  }
+   */
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .search-bar{
+    display: flex;
+    align-items: flex-end;
+    float:right;
+  }
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .slideshow-container{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+  }
+  .img-gfgl-long-pic{
+    position: relative;
+    left: 0px;
+    top: -85px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 70px;
+  }
+  .img-gfgl-long-pic2{
+    position: relative;
+    left: 0px;
+    top: 165px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 70px;
+  }
+  .img-gfgl-long-pic3{
+    position: relative;
+    left: 0px;
+    top: 165px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 70px;
+  }
+  .main-section2{
+    position: relative;
+    left: 0px;
+    top: 135px;
+
+  }
+  .bliss-masale{
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 120px;
+    top: 0px;
+  }
+  .bliss-milk{
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: -100px;
+    top: 215px;
+  }
+  .masala-section{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 400px;
+  }
+  .informations{
+    position: relative;
+    left: 120px;
+    top: 165px;
+    width: 450px;
+  }
+  .informations-even{
+    position: relative;
+    left: -230px;
+    top: 140px;
+    width: 450px;
+  }
+  .informations2{
+    position: relative;
+    left: -400px;
+    top: 450px;
+    width: 900px;
+  }
+  .informations2-even{
+    position: relative;
+    width: 750px;
+    left: 165px;
+    top: 530px;
+  }
+  .bliss-even{
+    flex-direction: row-reverse;
+  }
+    .bliss-masale-even{
+  width: 80%;
+  height: auto;
+  position: relative;
+  left: -50px;
+  top: 0px;
+}
+.bliss-milk-even{
+  width: 80%;
+  height: auto;
+  position: relative;
+  left: 170px;
+  top: 425px;
+}
+.long-pic{
+  position: relative;
+  top: 50px;
+}
+.long-pic3{
+  position: relative;
+  top: -50px;
+}
+.img-gfgl-long-pic3{
+  position: relative;
+  top: -50px;
+}
+.marquee1{
+  border-radius: 25px;
+  width: 460px;
+  height: 360px;
+  padding: 0px 0px;
+}
+.marquee{
+  position: relative;
+  top: -35px;
+}
+.img-gfgl-long-pic3 {
+  position: relative;
+  left: 0px;
+  top: 650px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 70px;
+}
+.positonconclb{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.tasteoflegacy .row > div:nth-child(1) {
+  border-bottom: 1px solid #cccccc;
+}
+.tasteoflegacy{
+  color: white;
+}
+.documentscoc{
+  color: white;
+  box-sizing: border-box;
+  border-width: 2px solid red;
+}
+body{
+  overflow-x: hidden;
+}
